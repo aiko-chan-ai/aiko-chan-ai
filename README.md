@@ -2,6 +2,8 @@
 
 ## About me
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2333F765&lines=Hi%2C+I'm+Shiraori%231782+%F0%9F%91%8B;I'm+Discord.js+Coder;My+Project%3A;Sagiri%233948+%5BDiscord.js+Bot%5D;API+simple+.-.)](https://git.io/typing-svg)
+
 - Student
 - NodeJS coder .-.
 - From: Vietnam

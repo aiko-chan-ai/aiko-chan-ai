@@ -7,7 +7,7 @@
 - Student
 - NodeJS coder .-.
 - From: Vietnam
-- Play games: Genshin Impact, Honkai Impact 3rd, etc.
+- Play games: Genshin Impact, Honkai Impact 3rd, Valorant, etc.
 
 ## Programming Language I coding:
 

@@ -45,7 +45,7 @@
 <details><summary>Social Media</summary>
 <p>
 
-- <img src="https://cdn.discordapp.com/emojis/941635070492553216.png" alt="." width="16" height="16"/> Discord: Shiraori#1782
+- <img src="https://cdn.discordapp.com/emojis/941635070492553216.png" alt="." width="16" height="16"/> [Discord: Shiraori#1782](https://discord.com/users/721746046543331449)
 
 </p>
 </details>

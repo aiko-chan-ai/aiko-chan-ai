@@ -2,7 +2,7 @@
 ![img](https://media.discordapp.net/attachments/929202153673871411/936110700030459924/DANCING.gif)
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2333F765&lines=Hi%2C+I'm+Shiraori%231782+%F0%9F%91%8B;I'm+Discord.js+Coder;My+Project%3A;Sagiri%233948+%5BDiscord.js+Bot%5D;API+simple+.-.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13)](https://git.io/typing-svg)
 
 
 <details><summary>My bio ?</summary>

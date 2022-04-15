@@ -1,5 +1,8 @@
 # Hi there! 👋
-![img](https://media.discordapp.net/attachments/929202153673871411/936110700030459924/DANCING.gif)
+<div align="center">
+<img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80"> <a href="https://discord.com/users/721746046543331449"><img src="https://discord.c99.nl/widget/theme-4/721746046543331449.png" alt="discord" /></a> <img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80">
+</div>
+
 ## About me
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13)](https://git.io/typing-svg)

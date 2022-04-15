@@ -1,6 +1,6 @@
 # Hi there! 👋
 <div align="center">
-<img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80"> <a href="https://discord.com/users/721746046543331449"><img src="https://discord.c99.nl/widget/theme-4/721746046543331449.png" alt="discord" /></a> <img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80">
+<img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80"> <a href="https://discord.com/users/721746046543331449"><img src="https://discord.c99.nl/widget/theme-2/721746046543331449.png" alt="discord" /></a> <img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80">
 </div>
 
 ## About me

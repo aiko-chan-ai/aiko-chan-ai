@@ -5,7 +5,7 @@
 
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13;App%3A+NyanRPC)](https://git.io/typing-svg)
 
 
 <details><summary>My bio ?</summary>

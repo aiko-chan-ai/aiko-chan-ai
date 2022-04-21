@@ -62,15 +62,5 @@ Yeah, I set the most repos to private.
 [![aiko-chan-ai's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true)](https://github.com/aiko-chan-ai/github-readme-stats)
 
 ![Language most](https://github-readme-stats.vercel.app/api/top-langs/?username=aiko-chan-ai&theme=dracula)
-
-## And my friends:
-
-<table>
-    <tr>
-      <td align="center"><a href="https://github.com/phamtung449"><img src="https://avatars.githubusercontent.com/u/79145211" width="100px;" alt="."/><br/><sub><b>Famukokiri</b></sub></a><br/></td>
-      <td align="center"><a href="https://github.com/DomDommmm"><img src="https://avatars.githubusercontent.com/u/69687573" width="100px;" alt="."/><br/><sub><b>DomDommmm</b></sub></a><br/></td>
-      <td align="center"><a href="https://github.com/cookiegmvn"><img src="https://avatars.githubusercontent.com/u/73780382" width="100px;" alt="."/><br/><sub><b>CookieGMVN</b></sub></a><br/></td>
-    </tr>
-  </table>
   
 ## Thanks for reading ❤️

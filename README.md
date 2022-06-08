@@ -63,4 +63,6 @@ Yeah, I set the most repos to private.
 
 ![Language most](https://github-readme-stats.vercel.app/api/top-langs/?username=aiko-chan-ai&theme=dracula)
   
+[![Discord Presence](https://lanyard.cnrad.dev/api/721746046543331449?theme=dark&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=You%20have%20got%20to%20be%20in%20it%20to%20win%20it)](https://discord.com/users/721746046543331449)
+
 ## Thanks for reading ❤️

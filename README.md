@@ -1,7 +1,6 @@
 # Hi there! 👋
-<div align="center">
-<img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80"> <a href="https://discord.com/users/721746046543331449"><img src="https://discord.c99.nl/widget/theme-2/721746046543331449.png" alt="discord" /></a> <img src='https://cdn.discordapp.com/attachments/820557032016969751/964502120504119356/love.gif' alt="Welcome" width="80">
-</div>
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=You%20have%20got%20to%20be%20in%20it%20to%20win%20it)](https://discord.com/users/721746046543331449)
 
 ## About me
 
@@ -62,7 +61,6 @@ Yeah, I set the most repos to private.
 [![aiko-chan-ai's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true)](https://github.com/aiko-chan-ai/github-readme-stats)
 
 ![Language most](https://github-readme-stats.vercel.app/api/top-langs/?username=aiko-chan-ai&theme=dracula)
-  
-[![Discord Presence](https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=You%20have%20got%20to%20be%20in%20it%20to%20win%20it)](https://discord.com/users/721746046543331449)
+
 
 ## Thanks for reading ❤️

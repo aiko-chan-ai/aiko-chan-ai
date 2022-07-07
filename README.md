@@ -62,5 +62,7 @@ Yeah, I set the most repos to private.
 
 ![Language most](https://github-readme-stats.vercel.app/api/top-langs/?username=aiko-chan-ai&theme=dracula)
 
+![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
 
 ## Thanks for reading ❤️

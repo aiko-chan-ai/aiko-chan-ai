@@ -1,11 +1,14 @@
 # Hi there! 👋
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=You%20have%20got%20to%20be%20in%20it%20to%20win%20it)](https://discord.com/users/721746046543331449)
+<div align="center">
+  <a href="https://discord.com/users/721746046543331449">
+    <img src="https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=You%20have%20got%20to%20be%20in%20it%20to%20win%20it">
+  </a>
+</div>
 
 ## About me
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13;App%3A+NyanRPC)](https://git.io/typing-svg)
-
 
 <details><summary>My bio ?</summary>
 <p>
@@ -58,9 +61,14 @@ Yeah, I set the most repos to private.
 
 ## My stats:
 
-[![aiko-chan-ai's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true)](https://github.com/aiko-chan-ai/github-readme-stats)
-
-![Language most](https://github-readme-stats.vercel.app/api/top-langs/?username=aiko-chan-ai&theme=dracula)
+<br/>
+<p align="left">
+  <a href="/">
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true" />
+    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=aiko-chan-ai&theme=dracula&hide_border=true" />
+  </a>
+</p>
+<br>
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 

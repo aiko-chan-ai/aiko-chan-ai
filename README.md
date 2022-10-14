@@ -2,9 +2,10 @@
 
 <div align="center">
   <a href="https://discord.com/users/721746046543331449">
-    <img src="https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=On%20the%20sky%20there%20is%20an%20angel%20in%20somewhere%20(.%20%E2%9D%9B%20%E1%B4%97%20%E2%9D%9B.)">
+    <img src="https://lanyard.cnrad.dev/api/721746046543331449?theme=light&bg=F4BFC7&borderRadius=15px&animated=true&idleMessage=On%20the%20sky%20there%20is%20an%20angel%20in%20somewhere%20(.%20%E2%9D%9B%20%E1%B4%97%20%E2%9D%9B.)"><img src="https://cdn.discordapp.com/attachments/820557032016969751/1030450710854254652/unknown.png" width="375" style="border-radius:50%">
   </a>
 </div>
+
 
 ## About me
 
@@ -70,7 +71,10 @@ Yeah, I set the most repos to private.
 </p>
 <br>
 
+## Commits
+
 ![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-
 ## Thanks for reading ❤️
+
+![:aikocount](https://count.getloli.com/get/@aiko-chan-ai?theme=rule34)

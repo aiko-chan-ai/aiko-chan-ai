@@ -9,7 +9,7 @@
 
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6FF73B&lines=Hi%2C+I'm+Shiraori%231782;I'm+Discord.js+Coder+from+VietNam+;My+Project%3A;Bot%3A+Sagiri%233948+%26+API;Lib%3A+Discord.js-selfbot-v13;App%3A+NyanRPC)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&color=6FF73B&width=435&lines=Hi%2C+I'm+Shiraori%231782+(Discord)+;DiscordBot+coder+from+Vietnam+;djs-sb-v13+%26+NyanRPC+are+my+project+)](https://git.io/typing-svg)
 
 <details><summary>My bio ?</summary>
 <p>
@@ -25,7 +25,7 @@
 <details><summary>Programming Language I coding?</summary>
 <p>
 
-- <img src="https://cdn.discordapp.com/emojis/932559343600156674.png?size=20" alt="." width="16" height="16"/> [NodeJS](https://nodejs.org/)
+- <img src="https://cdn.discordapp.com/emojis/620827756653051914.png" alt="." width="16" height="16"/> JavaScript [<img src="https://cdn.discordapp.com/emojis/932559343600156674.png?size=20" alt="." width="16" height="16"/> [NodeJS](https://nodejs.org/)] and <img src="https://www.typescriptlang.org/favicon-32x32.png" alt="." width="16" height="16"/> TypeScript
 - <img src="https://raw.githubusercontent.com/brand-icons/brands/66a515d0afc1bdf9cd308a9ae8d85e1bd23a4d97/icons/color/python.svg" alt="." width="16" height="16"/> [Python (noob)](https://www.python.org/)
 - <img src="https://cdn.discordapp.com/emojis/952439888337313802.png" alt="." width="16" height="16"/> C++ (noob)
 

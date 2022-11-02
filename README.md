@@ -9,7 +9,7 @@
 
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&color=6FF73B&width=435&lines=Hi%2C+I'm+Shiraori%231782+(Discord)+;DiscordBot+coder+from+Vietnam+;djs-sb-v13+%26+NyanRPC+are+my+project+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&color=6FF73B&width=435&lines=Hi%2C+I'm+Elysia%231782+(Discord)+;DiscordBot+coder+from+Vietnam+;djs-sb-v13+%26+NyanRPC+are+my+project+)](https://git.io/typing-svg)
 
 <details><summary>My bio ?</summary>
 <p>
@@ -51,7 +51,7 @@
 <details><summary>Social Media</summary>
 <p>
 
-- <img src="https://cdn.discordapp.com/emojis/941635070492553216.png" alt="." width="16" height="16"/> [Discord: Shiraori#1782](https://discord.com/users/721746046543331449)
+- <img src="https://cdn.discordapp.com/emojis/941635070492553216.png" alt="." width="16" height="16"/> [Discord: Elysia#1782](https://discord.com/users/721746046543331449)
 
 </p>
 </details>

@@ -35,8 +35,8 @@
 <p>
 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="." width="16" height="16"/> [Visual Studio Code](https://code.visualstudio.com/)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Notepad%2B%2B_Logo.svg/2367px-Notepad%2B%2B_Logo.svg.png" alt="." width="16" height="16"/> [Notepad++](https://notepad-plus-plus.org/)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gnu-nano.svg/1200px-Gnu-nano.svg.png" alt="." width="16" height="16"/> [GNU Nano](https://www.nano-editor.org/)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Notepad%2B%2B_Logo.svg/2367px-Notepad%2B%2B_Logo.svg.png" alt="." width="16" height="16"/> [Notepad++ :bruh:](https://notepad-plus-plus.org/)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gnu-nano.svg/1200px-Gnu-nano.svg.png" alt="." width="16" height="16"/> [GNU Nano :))](https://www.nano-editor.org/)
 
 </p>
 </details>
@@ -55,10 +55,6 @@
 
 </p>
 </details>
-
-## Why I can't see your repos?
-
-Yeah, I set the most repos to private.
 
 ## My stats:
 

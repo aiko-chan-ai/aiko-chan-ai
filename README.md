@@ -9,7 +9,7 @@
 
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&color=6FF73B&width=435&lines=Hi%2C+I'm+Elysia%231782+(Discord)+;DiscordBot+coder+from+Vietnam+;djs-sb-v13+%26+NyanRPC+are+my+project+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&color=F0A7AC&width=435&lines=Hi%2C+I'm+Elysia%231782+(Discord)+;DiscordBot+coder+from+Vietnam+;djs-sb-v13+%26+NyanRPC+are+my+project+)](https://git.io/typing-svg)
 
 <details><summary>My bio ?</summary>
 <p>

@@ -31,7 +31,8 @@
 
 <br/>
 <img src="https://cdn.discordapp.com/attachments/820557032016969751/1056419021110661210/herrscher-of-human-ego-elysia.gif" width="500" /><br/>
-<sub> *“It's not bad for the leading actress to play a charming villain for a change ♪” – Elysia* </sub>
+
+<sub>  *“It's not bad for the leading actress to play a charming villain for a change ♪.” – Elysia* </sub>
 </div>
 
 ## Discord

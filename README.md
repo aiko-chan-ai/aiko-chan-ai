@@ -26,7 +26,7 @@
   A patched version of discord, with bot login support
 - 📙 [***aiko-chan-ai/N0va-Desktop-File-Converter***](https://github.com/aiko-chan-ai/N0va-Desktop-File-Converter) <br/>
   Extract videos and photos from NovaDesktop
-- 📒 [***aiko-chan-ai/NyanRPC***](https://github.com/Elliottophellia/mocha) <br/>
+- 📒 [***aiko-chan-ai/NyanRPC***](https://github.com/aiko-chan-ai/NyanRPC) <br/>
   Mini Discord RPC Client (using Electron and Node.js)
 
 <br/>

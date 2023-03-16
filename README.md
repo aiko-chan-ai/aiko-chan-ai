@@ -28,6 +28,8 @@
   Extract videos and photos from NovaDesktop
 - 📒 [***aiko-chan-ai/NyanRPC***](https://github.com/aiko-chan-ai/NyanRPC) <br/>
   Mini Discord RPC Client (using Electron and Node.js)
+- 📕 [***aiko-chan-ai/Discord-Markdown***](https://github.com/aiko-chan-ai/Discord-Markdown) <br/>
+  Better Markdown to text chat Discord.
 
 <br/>
 <img src="https://cdn.discordapp.com/attachments/820557032016969751/1056419021110661210/herrscher-of-human-ego-elysia.gif" width="500" /><br/>

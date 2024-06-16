@@ -42,16 +42,11 @@
 
 ## My stats:
 
-<br/>
 <p>
   <a href="/"  align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true"/>
-  </a>
-  <a href="/" align="right">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aiko-chan-ai&theme=dracula&hide_border=true"/>
+  <img width="auto" src="https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true"/>
   </a>
 </p>
-<br>
 
 ## Commits
 

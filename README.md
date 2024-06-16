@@ -43,10 +43,12 @@
 ## My stats:
 
 <br/>
-<p align="left">
-  <a href="/">
-  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true" />
-    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=aiko-chan-ai&theme=dracula&hide_border=true" />
+<p>
+  <a href="/"  align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=aiko-chan-ai&theme=dracula&show_icons=true"/>
+  </a>
+  <a href="/" align="right">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aiko-chan-ai&theme=dracula&hide_border=true"/>
   </a>
 </p>
 <br>
@@ -61,5 +63,3 @@
 
 
 ## Thanks for reading ❤️
-
-![:aikocount](https://count.getloli.com/get/@aiko-chan-ai?theme=rule34)

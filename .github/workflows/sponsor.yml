@@ -1,0 +1,35 @@
+name: Sponsor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [main]
+
+jobs:
+  update-sponsors:
+    permissions: 
+      contents: write
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Update sponsors.png
+        run: npm run build
+        env:
+          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
+          SPONSORKIT_GITHUB_LOGIN: ${{ secrets.SPONSORKIT_GITHUB_LOGIN }}
+
+      - name: Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Chore: update sponsors.png'
+          add: 'sponsors.*'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

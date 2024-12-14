@@ -49,6 +49,9 @@
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/aiko-chan-ai/aiko-chan-ai/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
+## Sponsors image
+[![sponsors](./sponsors.png)](https://github.com/sponsors/aiko-chan-ai)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=aiko-chan-ai/DiscordBotClient,aiko-chan-ai/discord.js-selfbot-v13&type=Date)](https://star-history.com/#aiko-chan-ai/DiscordBotClient&aiko-chan-ai/discord.js-selfbot-v13&Date)

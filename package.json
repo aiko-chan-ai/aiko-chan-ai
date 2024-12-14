@@ -1,0 +1,16 @@
+{
+  "name": "aiko-chan-ai",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "npx sponsorkit"
+  },
+  "dependencies": {
+    "sponsorkit": "^0.8.9"
+  }
+}

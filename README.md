@@ -1,3 +1,11 @@
+### My status:
+
+I'm currently going through a rough patch (possibly dealing with depression) and need to take a break from activities on GitHub (and even from being online on Discord for a while). Hopefully, by June, once I've managed to improve my mood, I'll be able to return to my main projects on GitHub. Until then, I won't be very active on GitHub (and likely on Discord as well).
+
+I sincerely apologize to everyone waiting for updates on my projects, as well as to those who have supported me through sponsorships.
+
+Love you all.
+
 #
 <div>
 <img src="images/elysia_face.png" width="300" align="right" />

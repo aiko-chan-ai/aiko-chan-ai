@@ -6,6 +6,12 @@ I sincerely apologize to everyone waiting for updates on my projects, as well as
 
 Love you all.
 
+---
+
+I’ve been banned from Discord for allegedly being underage (???). I’m currently appealing the decision, and my account is not accessible at the moment. Please don’t send me any messages on Discord for now.
+
+---
+
 #
 <div>
 <img src="images/elysia_face.png" width="300" align="right" />

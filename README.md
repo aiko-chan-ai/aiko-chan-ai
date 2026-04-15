@@ -6,13 +6,13 @@
 <br/>
 <br/>
   
-- <img src="https://i.imgur.com/3KyfuCu.png" alt="." width="16" height="16"/> A normal student from Vietnam <img src="https://i.imgur.com/a2KhTyR.gif" alt="."  width="16" height="16" />
-- 🎮 I enjoy playing Open-world, FPS Games, Adventure, Gacha Games, Rhythm *and some lewd visual novels (shhh, don't tell anyone!)* <img src="https://i.imgur.com/YN1z4ON.png" alt="."/>    
-  ↳ **Some games:** <img src="https://i.imgur.com/E7EUUH3.png" alt="." width="16" height="16"/> [Muse Dash](https://store.steampowered.com/app/774171/Muse_Dash/), <img src="https://i.ppy.sh/013ed2c11b34720790e74035d9f49078d5e9aa64/68747470733a2f2f6f73752e7070792e73682f77696b692f696d616765732f4272616e645f6964656e746974795f67756964656c696e65732f696d672f75736167652d66756c6c2d636f6c6f75722e706e67" alt="." width="16" height="16"/> [Osu!](https://osu.ppy.sh/), <img src="https://i.imgur.com/QK1E4kB.png" alt="." width="16" height="16"/> [HI3rd](https://honkaiimpact3.hoyoverse.com/asia/vi-vn/home), <img src="https://i.imgur.com/qbjSWml.png" alt="." width="16" height="16"/> [Honkai: Star Rail](https://hsr.hoyoverse.com/vi-vn/home),...
+- ![](./images/icons/vn_flag.png) A normal student from Vietnam <img src="https://i.imgur.com/a2KhTyR.gif" alt="."  width="16" height="16" />
+- 🎮 I enjoy playing Open-world, FPS Games, Adventure, Gacha Games, Rhythm *and some lewd visual novels (shhh, don't tell anyone!)* ![](./images/icons/stare.png)    
+  ↳ **Some games:** ![](./images/icons/muse_dash.png) [Muse Dash](https://store.steampowered.com/app/774171/Muse_Dash/), ![](./images/icons/osu.png) [Osu!](https://osu.ppy.sh/), ![](./images/icons/hi3rd.png) [HI3rd](https://honkaiimpact3.hoyoverse.com/asia/vi-vn/home), ![](./images/icons/hsr.png) [Honkai: Star Rail](https://hsr.hoyoverse.com/vi-vn/home),...
 
-- I'm quite skilled with <img src="https://i.imgur.com/Xjb867j.png" alt="." width="16" height="16"/> JavaScript, <img src="https://i.imgur.com/eZxBcrA.png" alt="." width="16" height="16"/> [NodeJS](https://nodejs.org/) and <img src="https://www.typescriptlang.org/favicon-32x32.png" alt="." width="16" height="16"/> TypeScript
-- I can read and understand some code written in <img src="https://raw.githubusercontent.com/brand-icons/brands/66a515d0afc1bdf9cd308a9ae8d85e1bd23a4d97/icons/color/python.svg" alt="." width="16" height="16"/> [Python](https://www.python.org/), <img src="https://dotnet.microsoft.com/favicon.ico" alt="." width="16" height="16"/> C#, <img src="https://cdn.discordapp.com/emojis/1441009884777680939.png?size=128" alt="." width="16" height="16"/> Java and <img src="https://i.imgur.com/qgdFuhG.png" alt="." width="16" height="16"/> C++
-- I’m currently learning <img src="https://go.dev/images/favicon-gopher.png" alt="." width="16" height="16"/> [Go](https://go.dev/) and <img src="https://rust-lang.org/static/images/favicon.svg" alt="." width="16" height="16"/> [Rust](https://rust-lang.org/)
+- I'm quite skilled with ![](./images/icons/js.png) JavaScript, ![](./images/icons/node.png) [NodeJS](https://nodejs.org/) and ![](./images/icons/ts.png) TypeScript
+- I can read and understand some code written in ![](./images/icons/py.png) [Python](https://www.python.org/), ![](./images/icons/cs.png) C#, ![](./images/icons/java.png) Java and ![](./images/icons/cpp.png) C++
+- I’m currently learning ![](./images/icons/go.png) [Go](https://go.dev/) and ![](./images/icons/rust.png) [Rust](https://rust-lang.org/)
 
 <img src="images/elysia_body.png" width="300" align="right" />
 <br/>

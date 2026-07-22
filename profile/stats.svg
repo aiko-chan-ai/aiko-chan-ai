@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Elysia's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 2901, Total Commits  (last year) : 615, Total PRs: 127, Total Issues: 54, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 2903, Total Commits  (last year) : 615, Total PRs: 127, Total Issues: 54, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 25.045736820413335;
+        stroke-dashoffset: 25.04477546063391;
       }
     }
   

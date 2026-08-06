@@ -20,7 +20,9 @@ jobs:
     timeout-minutes: 20
 
     env:
-      STAR_HISTORY_REPOS: "aiko-chan-ai/discord.js-selfbot-v13,aiko-chan-ai/DiscordBotClient"
+      # Removed `discord.js-selfbot-v13` because GitHub’s stargazers API returns `403` for the archived repository, 
+      # apparently due to an edge case where fine-grained PAT permissions are not recognized for read-only archived repositories.
+      STAR_HISTORY_REPOS: "aiko-chan-ai/DiscordBotClient" # "aiko-chan-ai/discord.js-selfbot-v13,aiko-chan-ai/DiscordBotClient"
 
     steps:
       - name: Checkout profile repository
@@ -61,91 +63,91 @@ jobs:
           pnpm --dir .star-history install --frozen-lockfile
           pnpm --dir .star-history/backend install --frozen-lockfile
 
-      - name: Diagnose GitHub PAT
-        shell: bash
-        env:
-          STAR_HISTORY_PAT: ${{ secrets.STAR_HISTORY_PAT }}
-        run: |
-          set -euo pipefail
-
-          if [[ -z "${STAR_HISTORY_PAT:-}" ]]; then
-            echo "::error::STAR_HISTORY_PAT is missing"
-            exit 1
-          fi
-
-          check_endpoint() {
-            local label="$1"
-            local url="$2"
-            local accept="$3"
-
-            local headers
-            local body
-            local status
-
-            headers="$(mktemp)"
-            body="$(mktemp)"
-
-            status="$(
-              curl \
-                --silent \
-                --show-error \
-                --location \
-                --dump-header "$headers" \
-                --output "$body" \
-                --write-out "%{http_code}" \
-                --header "Accept: ${accept}" \
-                --header "Authorization: Bearer ${STAR_HISTORY_PAT}" \
-                --header "X-GitHub-Api-Version: 2026-03-10" \
-                "$url"
-            )"
-
-            echo
-            echo "=== ${label}: HTTP ${status} ==="
-
-            grep -Ei \
-              '^(x-ratelimit-(limit|remaining|used|reset|resource)|retry-after|x-accepted-github-permissions|x-github-request-id):' \
-              "$headers" || true
-
-            if [[ "$status" == "200" ]]; then
-              if [[ "$label" == "Authenticated user" ]]; then
-                jq -r '"Authenticated as: " + .login' "$body"
-              else
-                echo "Access OK"
-              fi
-
-              rm -f "$headers" "$body"
-              return 0
-            fi
-
-            echo "GitHub response:"
-            jq '{message, documentation_url, status}' "$body" 2>/dev/null \
-              || cat "$body"
-
-            rm -f "$headers" "$body"
-            return 1
-          }
-
-          FAILED=0
-
-          check_endpoint \
-            "Authenticated user" \
-            "https://api.github.com/user" \
-            "application/vnd.github+json" \
-            || FAILED=1
-
-          check_endpoint \
-            "discord.js-selfbot-v13 stargazers" \
-            "https://api.github.com/repos/aiko-chan-ai/discord.js-selfbot-v13/stargazers?per_page=1" \
-            "application/vnd.github.star+json" \
-            || FAILED=1
-
-          check_endpoint \
-            "DiscordBotClient stargazers" \
-            "https://api.github.com/repos/aiko-chan-ai/DiscordBotClient/stargazers?per_page=1" \
-            "application/vnd.github.star+json" \
-            || FAILED=1
-
-          exit "$FAILED"
+#      - name: Diagnose GitHub PAT
+#        shell: bash
+#        env:
+#          STAR_HISTORY_PAT: ${{ secrets.STAR_HISTORY_PAT }}
+#        run: |
+#          set -euo pipefail
+#
+#          if [[ -z "${STAR_HISTORY_PAT:-}" ]]; then
+#            echo "::error::STAR_HISTORY_PAT is missing"
+#            exit 1
+#          fi
+#
+#          check_endpoint() {
+#            local label="$1"
+#            local url="$2"
+#            local accept="$3"
+#
+#            local headers
+#            local body
+#            local status
+#
+#            headers="$(mktemp)"
+#            body="$(mktemp)"
+#
+#            status="$(
+#              curl \
+#                --silent \
+#                --show-error \
+#                --location \
+#                --dump-header "$headers" \
+#                --output "$body" \
+#                --write-out "%{http_code}" \
+#                --header "Accept: ${accept}" \
+#                --header "Authorization: Bearer ${STAR_HISTORY_PAT}" \
+#                --header "X-GitHub-Api-Version: 2026-03-10" \
+#                "$url"
+#            )"
+#
+#            echo
+#            echo "=== ${label}: HTTP ${status} ==="
+#
+#            grep -Ei \
+#              '^(x-ratelimit-(limit|remaining|used|reset|resource)|retry-after|x-accepted-github-permissions|x-github-request-id):' \
+#              "$headers" || true
+#
+#            if [[ "$status" == "200" ]]; then
+#              if [[ "$label" == "Authenticated user" ]]; then
+#                jq -r '"Authenticated as: " + .login' "$body"
+#              else
+#                echo "Access OK"
+#              fi
+#
+#              rm -f "$headers" "$body"
+#              return 0
+#            fi
+#
+#            echo "GitHub response:"
+#            jq '{message, documentation_url, status}' "$body" 2>/dev/null \
+#              || cat "$body"
+#
+#            rm -f "$headers" "$body"
+#            return 1
+#          }
+#
+#          FAILED=0
+#
+#          check_endpoint \
+#            "Authenticated user" \
+#            "https://api.github.com/user" \
+#            "application/vnd.github+json" \
+#            || FAILED=1
+#
+#          check_endpoint \
+#            "discord.js-selfbot-v13 stargazers" \
+#            "https://api.github.com/repos/aiko-chan-ai/discord.js-selfbot-v13/stargazers?per_page=1" \
+#            "application/vnd.github.star+json" \
+#            || FAILED=1
+#
+#          check_endpoint \
+#            "DiscordBotClient stargazers" \
+#            "https://api.github.com/repos/aiko-chan-ai/DiscordBotClient/stargazers?per_page=1" \
+#            "application/vnd.github.star+json" \
+#            || FAILED=1
+#
+#          exit "$FAILED"
 
       - name: Generate Star History SVG
         shell: bash

@@ -3,9 +3,7 @@ name: Sponsor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
-  push:
-    branches: [main]
+    - cron: '0 12 * * *'
 
 jobs:
   update-sponsors:

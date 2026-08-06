@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 20
 
     env:
-      REPOSITORIES: "aiko-chan-ai/discord.js-selfbot-v13,aiko-chan-ai/DiscordBotClient"
+      STAR_HISTORY_REPOS: "aiko-chan-ai/discord.js-selfbot-v13,aiko-chan-ai/DiscordBotClient"
 
     steps:
       - name: Checkout profile repository

@@ -1,0 +1,172 @@
+name: Update Star History
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 0 * * *"
+      timezone: "Asia/Ho_Chi_Minh"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-star-history
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      REPOSITORIES: "aiko-chan-ai/discord.js-selfbot-v13,aiko-chan-ai/DiscordBotClient"
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Checkout Star History
+        uses: actions/checkout@v6
+        with:
+          repository: star-history/star-history
+          ref: bcddc9d532b10bac7e0187a741288bf9cab17616
+          path: .star-history
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Setup pnpm
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          corepack enable
+          corepack prepare pnpm@9 --activate
+
+          node --version
+          pnpm --version
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          pnpm --dir .star-history install --frozen-lockfile
+          pnpm --dir .star-history/backend install --frozen-lockfile
+
+      - name: Generate Star History SVG
+        shell: bash
+        env:
+          STAR_HISTORY_PAT: ${{ secrets.STAR_HISTORY_PAT }}
+        run: |
+          set -euo pipefail
+
+          BACKEND_DIR="$GITHUB_WORKSPACE/.star-history/backend"
+          TOKEN_FILE="$RUNNER_TEMP/star-history-token.env"
+          SERVER_LOG="$RUNNER_TEMP/star-history-server.log"
+          OUTPUT_DIR="$GITHUB_WORKSPACE/assets"
+          TEMP_OUTPUT="$RUNNER_TEMP/star-history.svg"
+
+          if [[ -z "${STAR_HISTORY_PAT:-}" ]]; then
+            echo "::error::Secret STAR_HISTORY_PAT is missing"
+            exit 1
+          fi
+
+          mkdir -p "$OUTPUT_DIR"
+
+          printf '%s' "$STAR_HISTORY_PAT" > "$TOKEN_FILE"
+          chmod 600 "$TOKEN_FILE"
+
+          cd "$BACKEND_DIR"
+
+          ENVPATH="$TOKEN_FILE" pnpm dev > "$SERVER_LOG" 2>&1 &
+          SERVER_PID=$!
+
+          cleanup() {
+            kill "$SERVER_PID" 2>/dev/null || true
+            wait "$SERVER_PID" 2>/dev/null || true
+            rm -f "$TOKEN_FILE"
+          }
+
+          trap cleanup EXIT
+
+          READY=false
+
+          for attempt in $(seq 1 60); do
+            if curl \
+              --fail \
+              --silent \
+              "http://127.0.0.1:8080/healthz" \
+              >/dev/null; then
+              READY=true
+              break
+            fi
+
+            if ! kill -0 "$SERVER_PID" 2>/dev/null; then
+              echo "::error::Star History backend stopped unexpectedly"
+              cat "$SERVER_LOG"
+              exit 1
+            fi
+
+            sleep 1
+          done
+
+          if [[ "$READY" != "true" ]]; then
+            echo "::error::Star History backend did not become ready"
+            cat "$SERVER_LOG"
+            exit 1
+          fi
+
+          # https://api.star-history.com/svg
+          #   ?repos=aiko-chan-ai/DiscordBotClient,aiko-chan-ai/discord.js-selfbot-v13
+          #   &type=Date
+          #
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --retry 3 \
+            --retry-delay 2 \
+            --get \
+            --data-urlencode "repos=${STAR_HISTORY_REPOS//[[:space:]]/}" \
+            --data-urlencode "type=Date" \
+            "http://127.0.0.1:8080/svg" \
+            --output "$TEMP_OUTPUT"
+
+          if ! grep -q '<svg' "$TEMP_OUTPUT"; then
+            echo "::error::Generated response is not a valid SVG"
+            cat "$TEMP_OUTPUT"
+            echo
+            echo "Server log:"
+            cat "$SERVER_LOG"
+            exit 1
+          fi
+
+          mv "$TEMP_OUTPUT" "$OUTPUT_DIR/star-history.svg"
+
+      - name: Commit generated SVG
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add assets/star-history.svg
+
+          if git diff --cached --quiet; then
+            echo "Star History chart has not changed"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "chore: update star history"
+          git push

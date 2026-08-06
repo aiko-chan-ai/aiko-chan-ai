@@ -55,7 +55,7 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=aiko-chan-ai/DiscordBotClient,aiko-chan-ai/discord.js-selfbot-v13&type=Date)](https://star-history.com/#aiko-chan-ai/DiscordBotClient&aiko-chan-ai/discord.js-selfbot-v13&Date)
+![Star History Chart](./assets/star-history.svg)
 
 
 ## Thanks for reading and sponsoring me ❤️

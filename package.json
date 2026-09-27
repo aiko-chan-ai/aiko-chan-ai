@@ -11,6 +11,6 @@
     "build": "npx sponsorkit"
   },
   "dependencies": {
-    "sponsorkit": "^0.8.9"
+    "sponsorkit": "0.8.9"
   }
 }
